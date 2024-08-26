@@ -1,0 +1,138 @@
+.burger{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    z-index: 20;
+    margin-top: 60px;
+    display: none;
+}
+
+body.active{
+    overflow: hidden;
+}
+
+.burger span{
+    width: 100%;
+    height: 4px;
+    background-color: rgba(22, 53, 97, 1);
+    border-radius: 12px;
+    display: block;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.burger span::before,
+.burger span::after{
+    content: '';
+    width: 100%;
+    background-color: rgba(22, 53, 97, 1);
+    display: block;
+    transition: all 0.5s ease-in-out;
+    border-radius: 12px;
+    height: 4px;
+}
+
+.burger span::before{
+    transform: translateY(-10px);
+}
+
+.burger span::after{
+    transform: translateY(10px);
+    margin-top: -4px;
+}
+
+.burger.active span{
+    background-color: transparent;
+}
+
+.burger.active span::before{
+    transform: rotateZ(45deg) translateY(0);
+    background-color: white;
+}
+
+.burger.active span::after{
+    transform: rotateZ(-45deg) translateY(0);
+    background-color: white;
+}
+
+.burger__menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(22, 53, 97, 1);
+    transform: translateY(-100%);
+    transition: 0.5s;
+}
+
+.burger__menu.active{
+    transform: translateY(0%);
+}
+
+.ruBurger__menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(22, 53, 97, 1);
+    transform: translateY(-100%);
+    transition: 0.5s;
+}
+
+.ruBurger__menu.active{
+    transform: translateY(0%);
+}
+
+.burger__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger__list li a{
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.burger__list li:not(:nth-child(1)){
+    margin-top: 20px;
+}
+
+.burger__button p{
+    width: 188px;
+    height: 76px;
+    background-color: rgba(153, 186, 237, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.burger__button p:hover{
+    background-color: rgba(22, 53, 97, 1);
+}
+
+.burger__icons{
+    display: none;
+}
+
+.burger__icons-wrapper{
+    display: flex;
+    padding-top: 100px;
+}

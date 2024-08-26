@@ -1,0 +1,665 @@
+@media screen and (max-width: 1058px) {
+    .burger{
+        display: block;
+    }
+
+    .header__list{
+        display: none;
+    }
+
+    .list-2{
+        display: flex;
+    }
+
+    .header__button{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .container{
+        max-width: 1440px;
+    }
+
+    .header__content-image{
+        width: 60%;
+        /* height: 100%; */
+        margin-top: 0px;
+    }
+
+    .header__content-boldText{
+        width: 376px;
+        height: 300px;
+        font-size: 45px;
+    }
+
+    .header__content-thinText{
+        width: 326px;
+        margin-top: -20px;
+    }
+
+    .main__history-column{
+        left: -100px;
+    }
+
+    .services__item{
+        width: 431px;
+        margin: 0 15px;
+    }
+}
+
+@media screen and (max-width:1339px) {
+    .gallery__grid{
+        grid-template-columns: 435px 435px;
+    }
+}
+
+@media screen and (max-width: 1170px){
+    .services__items-wrapper{
+        flex-direction: column;
+    }
+
+    .services__item{
+        width: 441px;
+        margin: 20px 15px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container{
+        max-width: 1024px;
+    }
+
+    .main__history-column{
+        left: 0px;
+    }
+
+    .history__image{
+        width: 50%;
+        margin: 0;
+    }
+
+    .history__thinText{
+        width: 426px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .gallery__grid{
+        grid-template-columns: 435px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .header__content-body{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .header__content-boldText{
+        margin-left: 30px;
+        font-size: 45px;
+    }
+
+    .header__content-column{
+        flex-direction: row;
+    }
+    
+    .header__content-thinText{
+        margin-top: 170px;
+    }
+    
+    .header__content-button{
+        margin-top: 370px;
+    }
+
+    .header__content-image{
+        margin-left: 140px;
+    }
+}
+
+@media screen and (max-width:899px) {
+
+    .header__content{
+        margin-top: 150px;
+    }
+
+    .header__content-column{
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .header__content-boldText{
+        width: 576px;
+        margin-left: 0px;
+        font-size: 75px;
+    }
+
+    .header__content-thinText{
+        width: 526px;
+        font-size: 35px;
+        margin-top: 150px;
+        margin-left: 0px;
+    }
+    
+    .header__content-button{
+        width: 250px;
+        height: 76px;
+        margin-top: 200px;
+    }
+
+    .header__content-button p{
+        width: 250px;
+        height: 76px;
+        font-size: 34px;
+    }
+
+    .header__content-image{
+        width: 80%;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+
+    .RuHistory__title{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .main__history-wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .main__history-column{
+        width: 400px;
+        left: 140px;
+    }
+
+    .history__thinText{
+        width: 526px;
+        font-size: 25px;
+    }
+
+    .history__image{
+        width: 70%;
+        margin: 100px 0 0 100px;
+    }
+
+    .RuHistory__title{
+        font-size: 57px;
+    }
+}
+
+@media screen and (max-width:690px){
+    .header__content-column{
+        margin-left: 50px;
+    }
+
+    .main__history-column{
+        width: 400px;
+        left: 100px;
+    }
+
+    .history__image{
+        width: 70%;
+        margin: 100px 0 0 80px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .header__content-column{
+        margin-left: 30px;
+    }
+
+    .RuServices__title{
+        font-size: 66px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .header__content-column{
+        margin-left: 6px;
+    }
+
+    .main__history-column{
+        width: 100px;
+        left: 50px;
+    }
+
+    .RuHistory__title {
+        width: 400px;
+        font-size: 57px;
+    }
+
+    .RuServices__title{
+        font-size: 63px;
+    }
+}
+
+@media screen and (max-width:599px){
+    .history__title{
+        width: 300px;
+        font-size: 50px;
+    }
+
+    .history__thinText{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .RuItem__thintext{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .header__content{
+        margin-top: 100px;
+    }
+
+    .header__content-column{
+        margin-left: 30px;
+    }
+
+    .header__content-boldText{
+        width: 460px;
+    }
+
+    .header__content-thinText{
+        margin-top: 200px;
+    }
+    
+    .header__content-button{
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width:544px) {
+    .burger__icons{
+        display: block;
+    }
+
+    .header__list-logo{
+        display: none;
+    }
+
+    .RuHeader__content-thinText{
+        width: 426px;
+    }
+
+    .RuHistory__thinText{
+        width: 300px;
+    }
+
+    .RuHistory__title{
+        width: 400px;
+    }
+
+    .RuServices__title {
+        font-size: 59px;
+    }
+}
+
+@media screen and (max-width:525px) {
+
+    .history__thinText{
+        width: 500px;
+    }
+
+    .footer__text{
+        width: 400px;
+    }
+
+    .footer__logos-wrapper{
+        margin-top: 70px;
+    }
+
+    .RuGallery__title{
+        font-size: 69px;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    .main{
+        margin-top: 100px;
+    }
+
+    .history__thinText{
+        width: 300px;
+        font-size: 25px;
+    }
+    
+    .history__thinText:not(:nth-child(2)){
+        margin-top: 120px;
+    }
+
+    .history__button{
+        margin-top: 140px;
+        font-size: 30px;
+    }
+
+    .RuHistory__button{
+        font-size: 23px;
+    }
+
+    .RuGallery__title{
+        font-size: 66px;
+    }
+
+    .RuHeader__content-thinText{
+        width: 469px;
+        font-size: 27px;
+    }
+
+    .RuServices__title{
+        font-size: 57px;
+    }
+}
+
+/*  width: 460px */
+@media screen and (max-width:460px){
+    
+    .header__content-boldText{
+        width: 360px;
+        font-size: 65px;
+    }
+
+    .header__content-thinText{
+        width: 320px;
+        margin-top: 160px;
+    }
+
+    .RuGallery__title{
+        font-size: 60px;
+    }
+
+    .popUp__title{
+        width: 300px;
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (max-width:440px){
+    .services__items-wrapper{
+        flex-direction: column;
+    }
+
+    .services__item{
+        width: 400px;
+        margin: 20px 15px;
+    }
+
+    .RuServices__title{
+        font-size: 53px;
+    }
+
+    .RuItem__thintext{
+        width: 400px;
+    }
+
+    .RuFooter__text{
+        width: 400px;
+    }
+    
+    .RuGallery__title {
+        font-size: 57px;
+    }
+
+    .RuHistory__title{
+        width: 350px;
+        font-size: 50px;
+    }
+    
+}
+
+@media screen and (max-width:434px) {
+
+    .gallery__grid{
+        grid-template-columns: 400px;
+    }
+
+    .gallery__item{
+        width: 400px;
+        height: 400px;
+    }
+
+    .shape{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    .main__history-column{
+        width: 200px;
+    }
+
+    .history__title{
+        width: 220px;
+        font-size: 40px;
+    }
+
+    .history__thinText{
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .history__thinText:not(:nth-child(1)){
+        margin-top: -20px;
+    }
+
+    .history__thinText:not(:nth-child(2)){
+        margin-top: 80px;
+    }
+
+    .history__button{
+        margin-top: 100px;
+        font-size: 30px;
+    }
+
+    .history__image{
+        width: 70%;
+        margin: 100px 0 0 30px;
+    }
+    
+    .RuHistory__thinText{
+        width: 300px;
+    }
+
+    .RuHistory__title{
+        width: 300px;
+    }
+
+    .RuHistory__button{
+        font-size: 24px;
+    }
+
+    .RuGallery__title {
+        font-size: 52px;
+    }
+}
+
+@media screen and (max-width:399px){
+    .services__items-wrapper{
+        flex-direction: column;
+    }
+
+    .services__title{
+        width: 360px;
+    }
+
+    .services__item{
+        width: 340px;
+        margin: 20px 0px;
+    }
+
+    .item__thinText{
+        width: 300px;
+    }
+
+    .header__content-boldText{
+        width: 300px;
+        font-size: 60px;
+    }
+
+    .header__content-thinText{
+        margin-top: 200px;
+    }
+
+    .history__title{
+        width: 320px;
+        font-size: 50px;
+    }
+
+    .footer__text{
+        width: 320px;
+    }
+
+    .footer__logos-wrapper{
+        margin-top: 70px;
+    }
+
+    .RuServices__title {
+        font-size: 50px;
+    }
+
+    .RuItem__title{
+        font-size: 39px;
+    }
+
+    .RuHistory__title{
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .gallery__grid{
+        grid-template-columns: 330px;
+    }
+
+    .gallery__item{
+        width: 330px;
+        height: 330px;
+    }
+
+    .shape{
+        width: 330px;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .header__content-boldText{
+        width: 200px;
+        font-size: 40px;
+    }
+
+    .header__content-thinText{
+        width: 250px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .header__content-image{
+        width: 80%;
+        height: 100%;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    .header__content-button{
+        margin-top: 100px;
+    }
+
+    .RuServices__title {
+        width: 300px;
+        font-size: 44px;
+    }
+
+    .RuHistory__title {
+        width: 300px;
+        font-size: 40px;
+    }
+
+    .RuGallery__title {
+        font-size: 47px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .history__title{
+        width: 230px;
+        font-size: 45px;
+    }
+
+    .services__title{
+        width: 310px;
+    }
+
+    .services__item{
+        width: 300px;
+        margin: 20px 0px;
+    }
+
+    .gallery__grid{
+        grid-template-columns: 300px;
+    }
+
+    .gallery__item{
+        width: 300px;
+        height: 300px;
+    }
+
+    .shape{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .RuHistory__thinText {
+        width: 250px;
+    }
+
+    .RuHistory__title {
+        width: 300px;
+        font-size: 37px;
+    }
+
+    .RuServices__title {
+        font-size: 41px;
+    }
+
+    .RuItem__title {
+        font-size: 34px;
+    }
+
+    .RuItem__thintext {
+        width: 270px;
+    }
+
+    .RuHistory__title {
+        width: 270px;
+    }
+
+    .changeLang {
+        width: 45px;
+        height: 45px;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    .RuGallery__title {
+        font-size: 42px;
+    }
+
+    .RuHeader__content-thinText {
+        width: 250px;
+    }
+
+}

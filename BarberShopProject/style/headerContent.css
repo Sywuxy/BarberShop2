@@ -1,0 +1,67 @@
+.header__content{
+    margin-top: 200px;
+}
+
+.header__content-body{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.header__content-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__content-boldText{
+    width: 576px;
+    height: 300px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    color: rgba(22, 53, 97, 1);
+}
+
+.header__content-boldText span{
+    color: rgba(251, 180, 0, 1);
+}
+
+.header__content-thinText{
+    margin-top: 100px;
+    width: 526px;
+    height: 114px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(21, 52, 97, 1);
+}
+
+.header__content-button{
+    width: 188px;
+    height: 76px;
+    margin-top: 100px;
+}
+
+.header__content-button p{
+    width: 188px;
+    height: 76px;
+    background-color: rgba(153, 186, 237, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.header__content-button p:hover{
+    background-color: rgba(22, 53, 97, 1);
+}
+
+.header__content-image{
+    width: 60%;
+}

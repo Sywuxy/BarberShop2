@@ -1,0 +1,86 @@
+.services-wrapper{
+    margin-top: 200px;
+}
+
+.services__title-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__title{
+    width: 387px;
+    height: 164px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: rgba(22, 53, 97, 1);
+}
+
+.services__title span{
+    color: rgba(251, 180, 0, 1);
+}
+
+.services__items-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.services__item{
+    width: 441px;
+    height: 533px;
+    border-bottom: 3px solid rgba(153, 186, 237, 1);
+    border-radius: 12px;
+    background-color: rgba(250, 251, 255, 1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.services__item:hover{
+    background-color: rgba(153, 186, 237, 1);
+    transform: translateY(-20px);
+}
+
+.item__logo-wrapper{
+    width: 103px;
+    height: 126px;
+    background-color: rgba(229, 236, 254, 1);
+    border-bottom: 3px solid rgba(153, 186, 237, 1);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item__title{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: rgba(22, 53, 97, 1);
+    transition: 0.3s;
+
+    margin-top: 55px;
+}
+
+.item__thinText{
+    width: 359px;
+    height: 114px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    opacity: 90%;
+    color: rgba(22, 53, 97, 1);
+    transition: 0.3s;
+    text-align: center;
+
+    margin-top: 60px;
+}

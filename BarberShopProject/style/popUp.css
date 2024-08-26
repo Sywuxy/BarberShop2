@@ -1,0 +1,78 @@
+.hidden {
+    display: none;
+  }
+  
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    transition: 1s ease;
+}
+  
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.popUp__title{
+    width: 100%;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgba(22, 53, 97, 1);
+}
+
+.popUp__title span{
+    color: rgba(251, 180, 0, 1);
+}
+
+.popUp__text{
+    width: 180px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgba(22, 53, 97, 1);
+    border-bottom: 1px solid rgba(251, 180, 0, 1);
+}
+
+.popUp__btn{
+    width: 30%;
+    height: 40px;
+
+    background-color: rgba(22, 53, 97, 1);
+    border: none;
+    border-radius: 12px;
+
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}

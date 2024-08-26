@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header__body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__logo-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 100px;
+}
+
+.header__logo-item{
+    position: relative;
+    color: rgba(153, 186, 237, 1);
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    top: 20px;
+    left: -30px;
+}
+
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: -100px;
+}
+
+.header__list .header__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 70px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 25px;
+    line-height: 33.4px;
+    font-weight: 500;
+    color: rgba(22, 53, 97, 1);
+    text-decoration: none;
+    transition: 0.5s;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 20px 10px;
+}
+
+.header__list .header__link:hover{
+    color: white;
+    background-color: rgba(163, 193, 239, 1);
+}
+
+.header__list-item{
+    margin: 0px 0 0 40px;
+}
+
+.header__link p{
+    padding-top: 50px;
+}
+
+.header__list-logo{
+    padding-top: 40px;
+}
+
+.list-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__button p{
+    width: 188px;
+    height: 76px;
+    background-color: rgba(153, 186, 237, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 24px;
+    transition: 0.5s;
+}
+
+.header__button p:hover{
+    background-color: rgba(22, 53, 97, 1);
+}
+
+.changeLang{
+    width: 65px;
+    height: 65px;
+
+    border-radius: 50%;
+    background-color: rgba(22, 53, 97, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+
+    position: fixed;
+    z-index: 19;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    transition: 0.5s;
+}
+
+.ruPage{
+    display: none;
+}
+
+.ruPage.active{
+    display: block;
+}
+
+.engPage.active{
+    display: none;
+}
